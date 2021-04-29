@@ -1,0 +1,360 @@
+[18:29:47.731] [TFS] Revisado por Chaitosoft.com - a sua loja de otserv, version 0.4_DEV ()
+[18:29:47.731] Compiled with GNU C++ version 4.6.3 at Jan 20 2015, 22:53:42.
+[18:29:47.731] A server developed by Elf, Talaturen, KaczooH, Stian and Kornholijo.
+[18:29:47.731] Visit our forum for updates, support and resources: http://otland.net.
+
+[18:29:47.731] >> Loading config (config.lua)
+[18:29:47.732] >> Opening logs
+[18:29:47.743] > Using SHA1 encryption
+[18:29:48.087] >> Checking software version...failed checking - malformed file.
+[18:29:48.087] >> Loading RSA key
+[18:29:48.087] >> Starting SQL connection
+[18:29:48.088] >> Running Database Manager
+[18:29:48.147] > Optimizing table: account_viplist... [success]
+[18:29:48.154] > Optimizing table: accounts... [success]
+[18:29:48.161] > Optimizing table: bans... [success]
+[18:29:48.168] > Optimizing table: environment_killers... [success]
+[18:29:48.173] > Optimizing table: global_storage... [success]
+[18:29:48.181] > Optimizing table: guild_invites... [success]
+[18:29:48.187] > Optimizing table: guild_kills... [success]
+[18:29:48.192] > Optimizing table: guild_ranks... [success]
+[18:29:48.197] > Optimizing table: guild_wars... [success]
+[18:29:48.202] > Optimizing table: guilds... [success]
+[18:29:48.206] > Optimizing table: house_auctions... [success]
+[18:29:48.210] > Optimizing table: house_data... [success]
+[18:29:48.216] > Optimizing table: house_lists... [success]
+[18:29:48.228] > Optimizing table: houses... [success]
+[18:29:48.237] > Optimizing table: killers... [success]
+[18:29:48.244] > Optimizing table: player_deaths... [success]
+[18:29:48.250] > Optimizing table: player_depotitems... [success]
+[18:29:48.262] > Optimizing table: player_items... [success]
+[18:29:48.266] > Optimizing table: player_killers... [success]
+[18:29:48.269] > Optimizing table: player_namelocks... [success]
+[18:29:48.276] > Optimizing table: player_skills... [success]
+[18:29:48.286] > Optimizing table: player_spells... [success]
+[18:29:48.311] > Optimizing table: player_storage... [success]
+[18:29:48.318] > Optimizing table: player_viplist... [success]
+[18:29:48.330] > Optimizing table: players... [success]
+[18:29:48.334] > Optimizing table: server_config... [success]
+[18:29:48.341] > Optimizing table: server_motd... [success]
+[18:29:48.350] > Optimizing table: server_record... [success]
+[18:29:48.353] > Optimizing table: server_reports... [success]
+[18:29:48.380] > Optimizing table: tile_items... [success]
+[18:29:48.406] > Optimizing table: tiles... [success]
+[18:29:48.412] > Optimizing table: z_changelog... [success]
+[18:29:48.412] >> Loading items (OTB)
+[18:29:48.483] >> Loading items (XML)
+[18:29:48.541] >> Loading groups
+[18:29:48.551] >> Loading vocations
+[18:29:48.551] >> Loading outfits
+[18:29:48.552] >> Loading chat channels
+[18:29:48.552] >> Loading script systems
+[18:29:48.606] [Error - LuaInterface::loadFile] cannot open data/spells/scripts/attack/groundshaker.lua: No such file or directory
+[18:29:48.606] [Warning - Event::loadScript] Cannot load script (data/spells/scripts/attack/groundshaker.lua)
+[18:29:48.606] cannot open data/spells/scripts/attack/groundshaker.lua: No such file or directory
+[18:29:48.637] [Warning - Actions::registerEvent] Duplicate registered item aid: 35400
+[18:29:48.729] [Warning - MoveEvents::addEvent] Duplicate move event found: 7892
+[18:29:48.729] [Warning - MoveEvents::addEvent] Duplicate move event found: 7891
+[18:29:48.757] >> Loading mods...
+[18:29:48.757] > Loading hunted.xml... done.
+[18:29:48.757] > 1 mods were loaded.
+[18:29:48.757] >> Loading experience stages
+[18:29:48.758] >> Loading monsters
+[18:29:48.973] >> Loading map and spawns...
+[18:29:49.261] > Map size: 65000x65000.
+[18:29:49.261] > Map descriptions: 
+[18:29:49.261] "Saved with Remere's Map Editor 2.2"
+[18:29:49.261] "No map description available."
+[18:29:49.284] Duplicate uniqueId 13500
+[18:29:49.285] Duplicate uniqueId 13500
+[18:29:49.286] Duplicate uniqueId 13540
+[18:29:49.286] Duplicate uniqueId 13540
+[18:29:49.291] Duplicate uniqueId 13550
+[18:29:49.291] Duplicate uniqueId 13550
+[1I/O warning : failed to load external entity "data/npc/Merlin.xml"
+8:29:49.293] Duplicate uniqueId 12311
+[18:29:49.334] Duplicate uniqueId 25000
+[18:29:49.338] Duplicate uniqueId 25000
+[18:29:49.338] Duplicate uniqueId 25000
+[18:29:49.351] Duplicate uniqueId 25000
+[18:29:49.351] Duplicate uniqueId 25000
+[18:29:49.355] Duplicate uniqueId 25000
+[18:29:49.355] Duplicate uniqueId 25000
+[18:29:50.721] Duplicate uniqueId 9998
+[18:29:50.723] Duplicate uniqueId 13550
+[18:29:50.723] Duplicate uniqueId 13550
+[18:29:50.723] Duplicate uniqueId 13550
+[18:29:50.990] > Map loading time: 2.017 seconds.
+[18:29:51.098] [Warning - Spawns::loadFromXml] Crazed Beggar ( 00809 / 00201 / 007 ) spawntime cannot be less than 1 seconds.
+[18:29:51.121] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Merlin.xml).
+[18:29:51.122] Info: failed to load external entity "data/npc/Merlin.xml"
+
+
+[18:29:51.149] > Data parsing time: 0.159 seconds.
+[18:29:51.226] > Houses synchronization time: 0.077 seconds.
+[18:29:51.227] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02887 / 02582 / 005 )
+[18:29:51.227] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02888 / 02582 / 005 )
+[18:29:51.227] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02882 / 02584 / 005 )
+[18:29:51.228] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02882 / 02585 / 005 )
+[18:29:51.228] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02884 / 02584 / 005 )
+[18:29:51.228] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02886 / 02584 / 005 )
+[18:29:51.228] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02889 / 02584 / 005 )
+[18:29:51.228] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02889 / 02585 / 005 )
+[18:29:51.228] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02883 / 02588 / 005 )
+[18:29:51.228] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02885 / 02586 / 004 )
+[18:29:51.229] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02886 / 02587 / 004 )
+[18:29:51.229] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02887 / 02587 / 004 )
+[18:29:51.229] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02888 / 02585 / 004 )
+[18:29:51.229] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02889 / 02585 / 004 )
+[18:29:51.229] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02886 / 02588 / 004 )
+[18:29:51.229] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02887 / 02588 / 004 )
+[18:29:51.229] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02810 / 02563 / 005 )
+[18:29:51.230] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02812 / 02561 / 005 )
+[18:29:51.230] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02813 / 02561 / 005 )
+[18:29:51.230] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02810 / 02564 / 005 )
+[18:29:51.230] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02812 / 02567 / 005 )
+[18:29:51.230] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02813 / 02567 / 005 )
+[18:29:51.230] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02814 / 02564 / 005 )
+[18:29:51.230] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02826 / 02569 / 004 )
+[18:29:51.230] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02829 / 02570 / 004 )
+[18:29:51.231] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02829 / 02571 / 004 )
+[18:29:51.231] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02826 / 02573 / 004 )
+[18:29:51.231] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02827 / 02573 / 004 )
+[18:29:51.231] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02824 / 02569 / 004 )
+[18:29:51.231] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02813 / 02561 / 004 )
+[18:29:51.231] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02814 / 02561 / 004 )
+[18:29:51.232] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02815 / 02563 / 004 )
+[18:29:51.232] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02812 / 02566 / 004 )
+[18:29:51.232] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02812 / 02567 / 004 )
+[18:29:51.232] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02814 / 02566 / 004 )
+[18:29:51.232] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02814 / 02567 / 004 )
+[18:29:51.237] [Warning - IOMapSerialize::loadItems] NULL item at ( 00118 / 00066 / 007 ) (type = 7815, sid = 1, pid = 0)
+[18:29:51.238] [Warning - IOMapSerialize::loadItems] NULL item at ( 00118 / 00067 / 007 ) (type = 7816, sid = 1, pid = 0)
+[18:29:51.240] [Warning - IOMapSerialize::loadItems] NULL item at ( 00118 / 00070 / 007 ) (type = 6446, sid = 1, pid = 0)
+[18:29:51.244] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02803 / 02587 / 006 )
+[18:29:51.244] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02805 / 02586 / 006 )
+[18:29:51.244] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02805 / 02587 / 007 )
+[18:29:51.244] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02809 / 02586 / 006 )
+[18:29:51.244] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02808 / 02584 / 007 )
+[18:29:51.244] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02809 / 02586 / 007 )
+[18:29:51.244] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02802 / 02590 / 006 )
+[18:29:51.245] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02802 / 02591 / 006 )
+[18:29:51.245] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02804 / 02590 / 006 )
+[18:29:51.245] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02804 / 02591 / 006 )
+[18:29:51.245] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02809 / 02590 / 006 )
+[18:29:51.245] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02809 / 02590 / 007 )
+[18:29:51.245] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02803 / 02592 / 006 )
+[18:29:51.245] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02807 / 02592 / 006 )
+[18:29:51.245] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02805 / 02592 / 007 )
+[18:29:51.246] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02811 / 02583 / 007 )
+[18:29:51.246] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02815 / 02584 / 007 )
+[18:29:51.246] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02815 / 02586 / 007 )
+[18:29:51.246] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02815 / 02587 / 007 )
+[18:29:51.246] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02815 / 02588 / 006 )
+[18:29:51.246] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02815 / 02588 / 007 )
+[18:29:51.247] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02819 / 02583 / 007 )
+[18:29:51.247] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02819 / 02584 / 006 )
+[18:29:51.247] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02816 / 02586 / 007 )
+[18:29:51.247] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02816 / 02587 / 007 )
+[18:29:51.247] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02819 / 02585 / 007 )
+[18:29:51.248] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02794 / 02599 / 007 )
+[18:29:51.248] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02796 / 02598 / 007 )
+[18:29:51.248] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02796 / 02599 / 007 )
+[18:29:51.248] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02793 / 02601 / 007 )
+[18:29:51.248] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02793 / 02602 / 007 )
+[18:29:51.248] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02794 / 02600 / 007 )
+[18:29:51.248] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02796 / 02603 / 005 )
+[18:29:51.248] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02797 / 02603 / 007 )
+[18:29:51.249] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02791 / 02604 / 007 )
+[18:29:51.249] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02792 / 02604 / 007 )
+[18:29:51.249] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02794 / 02605 / 007 )
+[18:29:51.249] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02795 / 02604 / 007 )
+[18:29:51.249] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02796 / 02604 / 005 )
+[18:29:51.249] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02796 / 02605 / 006 )
+[18:29:51.249] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02796 / 02604 / 007 )
+[18:29:51.249] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02801 / 02597 / 007 )
+[18:29:51.249] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02801 / 02598 / 007 )
+[18:29:51.250] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02802 / 02597 / 007 )
+[18:29:51.250] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02802 / 02598 / 007 )
+[18:29:51.250] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02804 / 02597 / 007 )
+[18:29:51.250] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02805 / 02597 / 007 )
+[18:29:51.250] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02807 / 02599 / 007 )
+[18:29:51.250] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02808 / 02599 / 007 )
+[18:29:51.250] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02800 / 02601 / 007 )
+[18:29:51.250] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02805 / 02603 / 005 )
+[18:29:51.251] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02805 / 02600 / 006 )
+[18:29:51.251] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02806 / 02600 / 006 )
+[18:29:51.251] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02804 / 02600 / 007 )
+[18:29:51.251] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02805 / 02600 / 007 )
+[18:29:51.251] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02806 / 02603 / 007 )
+[18:29:51.251] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02809 / 02603 / 007 )
+[18:29:51.251] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02810 / 02603 / 007 )
+[18:29:51.252] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02800 / 02604 / 007 )
+[18:29:51.252] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02803 / 02607 / 007 )
+[18:29:51.252] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02805 / 02604 / 005 )
+[18:29:51.252] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02805 / 02605 / 006 )
+[18:29:51.252] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02806 / 02607 / 007 )
+[18:29:51.252] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02810 / 02605 / 007 )
+[18:29:51.252] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02810 / 02606 / 007 )
+[18:29:51.252] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02811 / 02605 / 007 )
+[18:29:51.252] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02811 / 02606 / 007 )
+[18:29:51.253] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02812 / 02607 / 007 )
+[18:29:51.253] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02791 / 02609 / 007 )
+[18:29:51.253] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02792 / 02609 / 007 )
+[18:29:51.253] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02795 / 02609 / 007 )
+[18:29:51.253] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02796 / 02609 / 006 )
+[18:29:51.253] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02796 / 02609 / 007 )
+[18:29:51.253] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02797 / 02611 / 007 )
+[18:29:51.253] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02794 / 02613 / 007 )
+[18:29:51.254] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02794 / 02614 / 007 )
+[18:29:51.254] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02795 / 02614 / 007 )
+[18:29:51.254] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02795 / 02615 / 007 )
+[18:29:51.254] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02796 / 02613 / 005 )
+[18:29:51.254] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02796 / 02614 / 005 )
+[18:29:51.254] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02796 / 02614 / 007 )
+[18:29:51.254] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02796 / 02615 / 007 )
+[18:29:51.254] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02798 / 02616 / 007 )
+[18:29:51.254] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02799 / 02616 / 007 )
+[18:29:51.255] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02806 / 02611 / 007 )
+[18:29:51.255] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02809 / 02610 / 007 )
+[18:29:51.255] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02810 / 02608 / 007 )
+[18:29:51.255] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02810 / 02610 / 007 )
+[18:29:51.255] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02811 / 02608 / 007 )
+[18:29:51.255] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02800 / 02612 / 007 )
+[18:29:51.255] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02805 / 02613 / 005 )
+[18:29:51.256] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02805 / 02614 / 005 )
+[18:29:51.256] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02805 / 02614 / 006 )
+[18:29:51.256] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02806 / 02614 / 006 )
+[18:29:51.256] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02809 / 02614 / 007 )
+[18:29:51.256] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02800 / 02617 / 007 )
+[18:29:51.256] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02801 / 02616 / 007 )
+[18:29:51.256] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02802 / 02616 / 007 )
+[18:29:51.256] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02804 / 02616 / 007 )
+[18:29:51.257] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02805 / 02616 / 007 )
+[18:29:51.257] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02798 / 02620 / 005 )
+[18:29:51.257] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02799 / 02620 / 005 )
+[18:29:51.257] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02802 / 02622 / 005 )
+[18:29:51.257] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02802 / 02622 / 006 )
+[18:29:51.257] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02800 / 02622 / 007 )
+[18:29:51.257] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02807 / 02622 / 006 )
+[18:29:51.258] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02807 / 02622 / 007 )
+[18:29:51.258] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02798 / 02624 / 005 )
+[18:29:51.258] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02799 / 02624 / 005 )
+[18:29:51.258] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02797 / 02625 / 007 )
+[18:29:51.258] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02803 / 02625 / 006 )
+[18:29:51.258] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02805 / 02625 / 007 )
+[18:29:51.258] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02807 / 02624 / 007 )
+[18:29:51.258] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02803 / 02628 / 007 )
+[18:29:51.259] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02803 / 02630 / 007 )
+[18:29:51.259] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02806 / 02629 / 004 )
+[18:29:51.259] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02806 / 02628 / 005 )
+[18:29:51.259] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02807 / 02628 / 005 )
+[18:29:51.259] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02804 / 02628 / 007 )
+[18:29:51.259] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02804 / 02630 / 007 )
+[18:29:51.259] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02807 / 02629 / 007 )
+[18:29:51.260] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02810 / 02631 / 005 )
+[18:29:51.260] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02808 / 02631 / 007 )
+[18:29:51.260] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02810 / 02629 / 007 )
+[18:29:51.260] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02810 / 02630 / 007 )
+[18:29:51.260] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02806 / 02635 / 005 )
+[18:29:51.260] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02806 / 02635 / 006 )
+[18:29:51.260] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02804 / 02635 / 007 )
+[18:29:51.260] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02810 / 02632 / 005 )
+[18:29:51.261] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02808 / 02635 / 007 )
+[18:29:51.261] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02815 / 02617 / 006 )
+[18:29:51.261] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02812 / 02619 / 007 )
+[18:29:51.261] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02815 / 02619 / 007 )
+[18:29:51.261] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02820 / 02615 / 007 )
+[18:29:51.261] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02818 / 02616 / 005 )
+[18:29:51.261] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02818 / 02617 / 005 )
+[18:29:51.262] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02819 / 02616 / 005 )
+[18:29:51.262] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02819 / 02617 / 005 )
+[18:29:51.262] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02817 / 02619 / 006 )
+[18:29:51.262] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02820 / 02617 / 006 )
+[18:29:51.262] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02820 / 02618 / 007 )
+[18:29:51.262] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02819 / 02623 / 007 )
+[18:29:51.263] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02820 / 02625 / 007 )
+[18:29:51.263] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02820 / 02626 / 007 )
+[18:29:51.263] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02823 / 02623 / 007 )
+[18:29:51.263] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02824 / 02625 / 007 )
+[18:29:51.263] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02824 / 02626 / 007 )
+[18:29:51.263] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02823 / 02623 / 006 )
+[18:29:51.263] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02824 / 02623 / 006 )
+[18:29:51.264] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02819 / 02624 / 006 )
+[18:29:51.264] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02821 / 02627 / 006 )
+[18:29:51.264] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02823 / 02624 / 006 )
+[18:29:51.264] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02824 / 02624 / 006 )
+[18:29:51.264] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02819 / 02625 / 005 )
+[18:29:51.264] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02812 / 02571 / 007 )
+[18:29:51.265] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02809 / 02575 / 007 )
+[18:29:51.265] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02812 / 02572 / 007 )
+[18:29:51.265] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02814 / 02574 / 007 )
+[18:29:51.265] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02809 / 02578 / 007 )
+[18:29:51.265] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02811 / 02577 / 007 )
+[18:29:51.265] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02817 / 02574 / 006 )
+[18:29:51.265] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02817 / 02573 / 007 )
+[18:29:51.265] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02817 / 02576 / 006 )
+[18:29:51.266] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02817 / 02576 / 007 )
+[18:29:51.266] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02807 / 02573 / 006 )
+[18:29:51.266] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02808 / 02573 / 006 )
+[18:29:51.266] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02810 / 02574 / 006 )
+[18:29:51.266] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02807 / 02576 / 006 )
+[18:29:51.266] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02808 / 02576 / 006 )
+[18:29:51.267] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02809 / 02578 / 006 )
+[18:29:51.267] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 02812 / 02576 / 005 )
+[18:29:51.268] [Warning - IOMapSerialize::loadItems] NULL item at ( 00143 / 00044 / 006 ) (type = 7811, sid = 1, pid = 0)
+[18:29:51.268] [Warning - IOMapSerialize::loadItems] NULL item at ( 00143 / 00045 / 006 ) (type = 7812, sid = 1, pid = 0)
+[18:29:51.270] [Warning - IOMapSerialize::loadItems] NULL item at ( 00215 / 00049 / 007 ) (type = 5303, sid = 1, pid = 0)
+[18:29:51.271] [Warning - IOMapSerialize::loadItems] NULL item at ( 00094 / 00045 / 007 ) (type = 7811, sid = 1, pid = 0)
+[18:29:51.271] [Warning - IOMapSerialize::loadItems] NULL item at ( 00094 / 00046 / 007 ) (type = 7812, sid = 1, pid = 0)
+[18:29:51.271] [Warning - IOMapSerialize::loadItems] NULL item at ( 00098 / 00046 / 007 ) (type = 10489, sid = 1, pid = 0)
+[18:29:51.271] [Warning - IOMapSerialize::loadItems] NULL item at ( 00098 / 00048 / 007 ) (type = 6249, sid = 1, pid = 0)
+[18:29:51.272] [Warning - IOMapSerialize::loadItems] NULL item at ( 00098 / 00050 / 007 ) (type = 10489, sid = 1, pid = 0)
+[18:29:51.272] [Warning - IOMapSerialize::loadItems] NULL item at ( 00106 / 00046 / 007 ) (type = 10489, sid = 1, pid = 0)
+[18:29:51.272] [Warning - IOMapSerialize::loadItems] NULL item at ( 00106 / 00047 / 007 ) (type = 6249, sid = 1, pid = 0)
+[18:29:51.272] [Warning - IOMapSerialize::loadItems] NULL item at ( 00109 / 00047 / 007 ) (type = 7811, sid = 1, pid = 0)
+[18:29:51.272] [Warning - IOMapSerialize::loadItems] NULL item at ( 00109 / 00048 / 007 ) (type = 7812, sid = 1, pid = 0)
+[18:29:51.275] [Warning - IOMapSerialize::loadItems] NULL item at ( 00151 / 00408 / 007 ) (type = 1818, sid = 1, pid = 0)
+[18:29:51.275] [Warning - IOMapSerialize::loadItems] NULL item at ( 00151 / 00409 / 007 ) (type = 1818, sid = 1, pid = 0)
+[18:29:51.275] [Warning - IOMapSerialize::loadItems] NULL item at ( 00153 / 00411 / 007 ) (type = 6436, sid = 1, pid = 0)
+[18:29:51.275] [Warning - IOMapSerialize::loadItems] NULL item at ( 00154 / 00408 / 007 ) (type = 1638, sid = 1, pid = 0)
+[18:29:51.275] [Warning - IOMapSerialize::loadItems] NULL item at ( 00156 / 00408 / 007 ) (type = 1219, sid = 1, pid = 0)
+[18:29:51.275] [Warning - IOMapSerialize::loadItems] NULL item at ( 00153 / 00400 / 007 ) (type = 1219, sid = 1, pid = 0)
+[18:29:51.276] [Warning - IOMapSerialize::loadItems] NULL item at ( 00153 / 00402 / 007 ) (type = 1818, sid = 1, pid = 0)
+[18:29:51.276] [Warning - IOMapSerialize::loadItems] NULL item at ( 00153 / 00403 / 007 ) (type = 1818, sid = 1, pid = 0)
+[18:29:51.276] [Warning - IOMapSerialize::loadItems] NULL item at ( 00156 / 00401 / 007 ) (type = 1640, sid = 1, pid = 0)
+[18:29:51.276] [Warning - IOMapSerialize::loadItems] NULL item at ( 00158 / 00402 / 007 ) (type = 6437, sid = 1, pid = 0)
+[18:29:51.276] [Warning - IOMapSerialize::loadItems] NULL item at ( 00153 / 00404 / 007 ) (type = 1219, sid = 1, pid = 0)
+[18:29:51.276] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 00156 / 00409 / 006 )
+[18:29:51.277] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 00153 / 00398 / 006 )
+[18:29:51.277] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 00156 / 00397 / 006 )
+[18:29:51.277] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 00153 / 00400 / 006 )
+[18:29:51.277] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 00153 / 00402 / 006 )
+[18:29:51.277] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 00153 / 00403 / 006 )
+[18:29:51.277] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 00156 / 00401 / 006 )
+[18:29:51.277] [Error - IOMapSerialize::loadMapRelational] Unserialization of invalid tile at position ( 00153 / 00404 / 006 )
+[18:29:51.382] [Warning - IOMapSerialize::loadItems] NULL item at ( 00154 / 00046 / 006 ) (type = 6252, sid = 1, pid = 0)
+[18:29:51.409] [Warning - IOMapSerialize::loadItems] NULL item at ( 00097 / 00026 / 007 ) (type = 7819, sid = 1, pid = 0)
+[18:29:51.409] [Warning - IOMapSerialize::loadItems] NULL item at ( 00097 / 00027 / 007 ) (type = 7820, sid = 1, pid = 0)
+[18:29:51.422] [Warning - IOMapSerialize::loadItems] NULL item at ( 00097 / 00032 / 007 ) (type = 7815, sid = 1, pid = 0)
+[18:29:51.422] [Warning - IOMapSerialize::loadItems] NULL item at ( 00097 / 00033 / 007 ) (type = 7816, sid = 1, pid = 0)
+[18:29:51.443] [Warning - IOMapSerialize::loadItems] NULL item at ( 00143 / 00028 / 007 ) (type = 10489, sid = 1, pid = 0)
+[18:29:51.447] [Warning - IOMapSerialize::loadItems] NULL item at ( 00139 / 00035 / 007 ) (type = 10488, sid = 1, pid = 0)
+[18:29:51.474] [Warning - IOMapSerialize::loadItems] NULL item at ( 00182 / 00033 / 007 ) (type = 6249, sid = 1, pid = 0)
+[18:29:51.475] [Warning - IOMapSerialize::loadItems] NULL item at ( 00182 / 00034 / 007 ) (type = 10489, sid = 1, pid = 0)
+[18:29:51.478] [Warning - IOMapSerialize::loadItems] NULL item at ( 00182 / 00039 / 007 ) (type = 10489, sid = 1, pid = 0)
+[18:29:51.487] [Warning - IOMapSerialize::loadItems] NULL item at ( 00185 / 00047 / 007 ) (type = 10489, sid = 1, pid = 0)
+[18:29:51.522] [Warning - IOMapSerialize::loadItems] NULL item at ( 00198 / 00036 / 007 ) (type = 5303, sid = 1, pid = 0)
+[18:29:51.523] [Warning - IOMapSerialize::loadItems] NULL item at ( 00200 / 00036 / 007 ) (type = 5303, sid = 1, pid = 0)
+[18:29:51.530] [Warning - IOMapSerialize::loadItems] NULL item at ( 00207 / 00036 / 007 ) (type = 5303, sid = 1, pid = 0)
+[18:29:51.532] [Warning - IOMapSerialize::loadItems] NULL item at ( 00209 / 00036 / 007 ) (type = 5303, sid = 1, pid = 0)
+[18:29:51.533] [Warning - IOMapSerialize::loadItems] NULL item at ( 00212 / 00031 / 007 ) (type = 5304, sid = 1, pid = 0)
+[18:29:51.543] [Warning - IOMapSerialize::loadItems] NULL item at ( 00215 / 00039 / 007 ) (type = 5303, sid = 1, pid = 0)
+[18:29:51.555] [Warning - IOMapSerialize::loadItems] NULL item at ( 00215 / 00049 / 007 ) (type = 5303, sid = 1, pid = 0)
+[18:29:51.573] [Warning - IOMapSerialize::loadItems] NULL item at ( 00189 / 00063 / 007 ) (type = 10488, sid = 1, pid = 0)
+[18:29:51.573] [Warning - IOMapSerialize::loadItems] NULL item at ( 00190 / 00063 / 007 ) (type = 6252, sid = 1, pid = 0)
+[18:29:51.573] [Warning - IOMapSerialize::loadItems] NULL item at ( 00191 / 00063 / 007 ) (type = 10488, sid = 1, pid = 0)
+[18:29:51.579] > Content unserialization time: 0.353 seconds.
+[18:29:51.579] >> Checking world type... Open PvP
+[18:29:51.579] >> Initializing game state and binding services...
+0Jogadores no Blood Castle

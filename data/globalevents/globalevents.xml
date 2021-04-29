@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent name="save" interval="1500000" event="script" value="save.lua"/>
+	<globalevent name="clean" interval="1000000" event="script" value="clean.lua"/>
+	<globalevent name="record" type="record" event="script" value="record.lua"/>
+	
+	<!-- Eventos -->	
+        <globalevent name="bloodstart" type="start" event="script" value="BloodGlobalEvent.lua"/>
+        <globalevent name="Blood Castle" interval="10800000" event="script" value="BloodGlobalEvent.lua"/>                 
+        <globalevent name="lottery" interval="10800000" event="script" value="lottery.lua"/>
+        <globalevent name="GlobalBattle" interval="60000" event="script" value="BattleGlobalEvents.lua"/>
+        <globalevent name="MagicEffect1" interval="2000" script="placa.lua" />
+        <globalevent name="MagicEffect2" interval="2000" script="placa1.lua" />
+        <globalevent name="MagicEffect3" interval="2000" script="placa2.lua" />
+	<globalevent name="MagicEffect4" interval="2000" script="placa3.lua" />
+        <globalevent name="MagicEffect5" interval="2000" script="placa4.lua" />
+        <globalevent name="MagicEffect6" interval="2000" script="placa5.lua" />
+        <globalevent name="MagicEffect7" interval="2000" script="placa6.lua" />
+        <globalevent name="MagicEffect8" interval="2000" script="placa7.lua" />
+        <globalevent name="MagicEffect9" interval="2000" script="placa8.lua" />
+        <globalevent name="MagicEffect10" interval="2000" script="placa9.lua" />
+        <globalevent name="MagicEffect11" interval="2000" script="placa10.lua" />
+        <globalevent name="MagicEffect12" interval="2000" script="placa11.lua" />
+        <globalevent name="MagicEffect13" interval="2000" script="placa12.lua" />
+        <globalevent name="MagicEffect14" interval="2000" script="placa13.lua" />
+        <globalevent name="MagicEffect15" interval="2000" script="placa14.lua" />
+        <globalevent name="MagicEffect16" interval="2000" script="placa15.lua" />
+        <globalevent name="MagicEffect17" interval="2000" script="placa16.lua" />
+        <globalevent name="MagicEffect18" interval="2000" script="placa17.lua" />
+        <globalevent name="MagicEffect20" interval="2000" script="placa19.lua" />
+        <globalevent name="CTFCheck" time="19:33:00" event="script" value="CTFMax.lua"/>
+        <globalevent name="HouseClean" time="03:00:00" event="script" value="houseclean.lua"/>
+		<globalevent name="shop" interval="300" script="shop.lua"/>
+	
+	<!-- Teleports -->
+	<globalevent name="evento" interval="2000" event="script" value="evento.lua"/>
+        <globalevent name="texto" interval="2000" script="texto.lua" />
+	<globalevent name="addonquest" interval="2000" event="script" value="addonquest.lua"/>
+	<globalevent name="estatuaarena" interval="2000" event="script" value="estatuaarena.lua"/>
+	<globalevent name="arena" interval="2000" event="script" value="arena.lua"/>
+	<globalevent name="inquisit" interval="2000" event="script" value="inquisit.lua"/>
+        <globalevent name="arenaquest" interval="2000" event="script" value="arenaquest.lua"/>
+	<globalevent name="elemental" interval="2000" event="script" value="elemental.lua"/>
+	<globalevent name="set" interval="2000" event="script" value="set.lua"/>
+	<globalevent name="pvp" interval="2000" event="script" value="pvp.lua"/>
+	<globalevent name="quest" interval="2000" event="script" value="quest.lua"/>
+	<globalevent name="questvip" interval="2000" event="script" value="questvip.lua"/>
+	<globalevent name="tps" interval="2000" event="script" value="tps.lua"/>
+	<globalevent name="trainer" interval="2000" event="script" value="trainer.lua"/>
+	<globalevent name="vip 1" interval="2000" event="script" value="vip 1.lua"/>
+	<globalevent name="vip 2" interval="2000" event="script" value="vip 2.lua"/>
+	<globalevent name="npc" interval="2000" event="script" value="npc.lua"/>
+	
+	
+    
+
+	<!-- <globalevent name="timer_example" time="21:35" event="script" value="my_script.lua"/> -->
+</globalevents>
